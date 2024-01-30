@@ -1,5 +1,5 @@
-from flask import Flask,render_template, render_template, request
-from pyshorteners import Shortener
+from flask import Flask,render_template
+
 
 app = Flask(__name__)
 

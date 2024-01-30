@@ -3,11 +3,11 @@ from pyshorteners import Shortener
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def home():
     return render_template('index.html',title="嫌難しいな",message="本当にね")
 
-@app.route('/', methods=['POST'])
+@app.route('/')
 def post():
 	name = request.form['name']
 	
@@ -21,6 +21,8 @@ def post():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+
 
 
 

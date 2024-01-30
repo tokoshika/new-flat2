@@ -10,4 +10,4 @@ def home():
 def about():
     return 'About2'
 
-app.run(port=5000,debug=True)
+# app.run(port=5000,debug=True)

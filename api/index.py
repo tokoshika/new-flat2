@@ -8,6 +8,5 @@ def home():
 
 @app.route('/about')
 def about():
-    return 'About2'
+    return 'About'
 
-# app.run(port=5000,debug=True)
